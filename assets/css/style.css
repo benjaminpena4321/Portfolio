@@ -1,0 +1,67 @@
+*{
+	padding:0;
+	margin:0;
+	border-style: border-box;
+}
+
+
+.wire{
+	border:1px solid black;
+
+}
+
+.img_logo{
+	width:100%; 
+	height:400px;
+}
+
+.center_content{
+	margin-top:150px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.progress{
+	height:50px;
+	width:100%;
+}
+
+.progress-bar{
+	background-color: gray;
+}
+
+.projects{
+	background-color: gray;
+	height:100px;
+}
+
+
+.projects b{
+	color: white;
+}
+
+.row_width{
+	margin-top:70px;
+	height:100px;
+	background-color: gray;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+
