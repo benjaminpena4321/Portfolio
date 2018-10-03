@@ -11,7 +11,7 @@
 }
 
 .img_logo{
-	background:url(../images/moto.jpg) no-repeat ;
+	background:url(../images/moto.jpg) no-repeat;
 	background-size:100%;
 	height:100%; 
 	width:100%;
@@ -21,9 +21,9 @@
 
 }
 
-.center_content{
+/*.center_content{
 	margin-top:150px;
-}
+}*/
 
 html, body {
     max-width: 100%;
@@ -158,3 +158,53 @@ body{
  	width:100%;
  	z-index:1;
  }
+
+
+ @media (min-width:960px){
+ 		/*start of desktop styles*/
+
+
+
+ 		.center_content{
+			margin-top:150px;
+}
+
+
+
+
+ }
+
+@media screen and (max-width: 991px) {
+     /* start of large tablet styles */
+     .img_logo{
+		background:url(../images/moto.jpg) no-repeat;
+		background-size:100%;
+		height:100%; 
+		width:100%;
+		background-attachment: fixed;
+
+}
+	.center_content{
+		margin-top:150px;
+}
+
+}
+
+
+ @media screen and (max-width: 479px) {
+     /* start of phone styles */
+     .img_logo{
+	    margin-top: 40px;
+		background:url(../images/moto.jpg) no-repeat;
+		background-size:100%;
+		height:300px; 
+		width:100%;
+	
+
+}
+	.center_content{
+		margin-top:0px;
+}
+
+
+}
